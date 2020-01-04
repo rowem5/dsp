@@ -95,8 +95,18 @@ There is a 29.41% chance that Elvis was an identical twin
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+A frequentist doesn't take into account the historical probabilites of a problem, they just compute the distribution based
+on the raw data. Their analysis of a problem would sound like:  "If this experiment is repeated many times, in 95% of the
+cases the computed confidence interval will contain the true mean".
 
+A Bayesian does take into account some historical probability of a problem, and use that to analyze the data. Their analysis
+would sound something like "Based on the given data there is a 95% probability that the mean lies within this confidence
+interval"
+
+In other words a frequentist has a fixed point and variable intervals while the Bayesian has a fixed interval and variable
+points. 
+
+[detailed explanation](https://www.youtube.com/watch?v=KhAUfqhLakw)
 ---
 
 ## <a name="section-e"></a>5.  Optional Exercises
